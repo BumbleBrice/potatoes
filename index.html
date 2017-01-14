@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+		<meta charset="UTF-8">
+		<title>Le tas de patates !</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript">
+
+			var maxPotatoes = prompt('Combien veux tu voir de patate ?');
+			var question = prompt('Hey mon ami ! Tu aimes ça les patates ?');
+				if (question == 'oui'){
+					var tas = '';
+					for (var i= 0; i < maxPotatoes; i++){
+						tas = tas +'#';
+						console.log(tas);
+					}
+				} 
+				else if (question == 'non')
+					alert("Tu aime rien en vrais?");
+				else
+					alert("Je vous sens comme tiraillé")
+
+		</script>
+
+</head>
+	<body>
+		
+	</body>
+</html>
